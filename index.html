@@ -1,0 +1,462 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dr. Rafael Montenegro | Advocacia & Consultoria Jurídica</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400;0,500;0,600;0,700;1,400&family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <!-- Header fixo -->
+    <header class="header" id="header">
+        <nav class="nav-container">
+            <div class="logo">
+                <h1>Dr. Rafael Montenegro</h1>
+                <span class="subtitle">Advocacia & Consultoria</span>
+            </div>
+            
+            <ul class="nav-menu" id="nav-menu">
+                <li><a href="#sobre" class="nav-link">Sobre</a></li>
+                <li><a href="#especialidades" class="nav-link">Especialidades</a></li>
+                <li><a href="#experiencia" class="nav-link">Experiência</a></li>
+                <li><a href="#contato" class="nav-link">Contato</a></li>
+            </ul>
+            
+            <div class="mobile-menu-toggle" id="mobile-toggle">
+                <span></span>
+                <span></span>
+                <span></span>
+            </div>
+        </nav>
+    </header>
+
+    <!-- Hero Section -->
+    <section class="hero" id="hero">
+        <div class="hero-background">
+            <div class="hero-image">
+                <img src="lawyer-professional.jpg" alt="Dr. Rafael Montenegro - Advogado" class="hero-img">
+            </div>
+            <div class="hero-overlay"></div>
+        </div>
+        
+        <div class="hero-content">
+            <div class="hero-text">
+                <h2 class="hero-title">Dr. Rafael Montenegro</h2>
+                <p class="hero-subtitle">Especialista em Soluções Jurídicas Estratégicas</p>
+                <p class="hero-description">Advocacia comprometida com a excelência, ética e defesa dedicada dos direitos de nossos clientes</p>
+                <button class="cta-button primary" onclick="scrollToSection('contato')">
+                    <i class="fas fa-calendar-check"></i>
+                    Agende sua Consulta
+                </button>
+            </div>
+        </div>
+        
+        <div class="scroll-indicator">
+            <i class="fas fa-chevron-down"></i>
+        </div>
+    </section>
+
+    <!-- Sobre Section -->
+    <section class="section sobre" id="sobre">
+        <div class="container">
+            <div class="section-header">
+                <h2 class="section-title">Sobre o Profissional</h2>
+                <div class="title-divider"></div>
+            </div>
+            
+            <div class="sobre-content">
+                <div class="sobre-text">
+                    <div class="about-card">
+                        <h3>Dr. Rafael Montenegro Silva</h3>
+                        <p class="oab-number">OAB/SP 234.567</p>
+                        
+                        <div class="credentials">
+                            <div class="credential-item">
+                                <i class="fas fa-graduation-cap"></i>
+                                <div>
+                                    <h4>Formação Acadêmica</h4>
+                                    <p>Bacharel em Direito pela Universidade de São Paulo (USP)</p>
+                                    <p>Pós-graduação em Direito Empresarial pela FGV</p>
+                                </div>
+                            </div>
+                            
+                            <div class="credential-item">
+                                <i class="fas fa-briefcase"></i>
+                                <div>
+                                    <h4>Experiência Profissional</h4>
+                                    <p>15 anos de atuação advocatícia</p>
+                                    <p>Expertise em consultoria empresarial e litígios complexos</p>
+                                </div>
+                            </div>
+                            
+                            <div class="credential-item">
+                                <i class="fas fa-balance-scale"></i>
+                                <div>
+                                    <h4>Valores & Missão</h4>
+                                    <p>Comprometimento com a ética profissional e transparência</p>
+                                    <p>Defesa incansável dos direitos e interesses dos clientes</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Especialidades Section -->
+    <section class="section especialidades" id="especialidades">
+        <div class="container">
+            <div class="section-header">
+                <h2 class="section-title">Especialidades Jurídicas</h2>
+                <div class="title-divider"></div>
+                <p class="section-subtitle">Áreas de atuação com excelência comprovada</p>
+            </div>
+            
+            <div class="especialidades-grid">
+                <div class="especialidade-card">
+                    <div class="card-icon">
+                        <i class="fas fa-gavel"></i>
+                    </div>
+                    <h3>Direito Civil</h3>
+                    <p>Assessoria em contratos, responsabilidade civil, questões patrimoniais e resolução de conflitos com abordagem técnica especializada.</p>
+                </div>
+                
+                <div class="especialidade-card">
+                    <div class="card-icon">
+                        <i class="fas fa-briefcase"></i>
+                    </div>
+                    <h3>Direito Trabalhista</h3>
+                    <p>Orientação em relações de trabalho, defesa de direitos trabalhistas e representação perante órgãos competentes.</p>
+                </div>
+                
+                <div class="especialidade-card">
+                    <div class="card-icon">
+                        <i class="fas fa-home"></i>
+                    </div>
+                    <h3>Direito de Família</h3>
+                    <p>Assessoria em questões familiares, incluindo divórcio, guarda, alimentos, inventário e planejamento sucessório.</p>
+                </div>
+                
+                <div class="especialidade-card">
+                    <div class="card-icon">
+                        <i class="fas fa-building"></i>
+                    </div>
+                    <h3>Direito Empresarial</h3>
+                    <p>Consultoria jurídica empresarial, elaboração de contratos comerciais e assessoria em compliance corporativo.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Diferenciais Section -->
+    <section class="stats-section">
+        <div class="container">
+            <div class="section-header">
+                <h2 class="section-title" style="color: #D4AF37;">Nossos Diferenciais</h2>
+                <div class="title-divider"></div>
+            </div>
+            <div class="stats-grid">
+                <div class="stat-card">
+                    <div class="stat-icon">
+                        <i class="fas fa-balance-scale"></i>
+                    </div>
+                    <h3 class="stat-title">Experiência</h3>
+                    <p>Mais de uma década de atuação advocatícia especializada</p>
+                </div>
+                <div class="stat-card">
+                    <div class="stat-icon">
+                        <i class="fas fa-handshake"></i>
+                    </div>
+                    <h3 class="stat-title">Compromisso</h3>
+                    <p>Dedicação integral à defesa dos interesses dos clientes</p>
+                </div>
+                <div class="stat-card">
+                    <div class="stat-icon">
+                        <i class="fas fa-graduation-cap"></i>
+                    </div>
+                    <h3 class="stat-title">Qualificação</h3>
+                    <p>Formação acadêmica sólida e atualização constante</p>
+                </div>
+                <div class="stat-card">
+                    <div class="stat-icon">
+                        <i class="fas fa-shield-alt"></i>
+                    </div>
+                    <h3 class="stat-title">Ética</h3>
+                    <p>Atuação pautada pelos princípios do Código de Ética da OAB</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Timeline Section -->
+    <section class="timeline-section" id="experiencia">
+        <div class="container">
+            <div class="section-header">
+                <h2 class="section-title">Trajetória Profissional</h2>
+                <div class="title-divider"></div>
+            </div>
+            
+            <div class="timeline">
+                <div class="timeline-item" data-year="2010">
+                    <div class="timeline-marker"></div>
+                    <div class="timeline-content">
+                        <h4>Formação em Direito</h4>
+                        <p>Bacharel pela Universidade de São Paulo (USP) - Magna Cum Laude</p>
+                    </div>
+                </div>
+                <div class="timeline-item" data-year="2012">
+                    <div class="timeline-marker"></div>
+                    <div class="timeline-content">
+                        <h4>Especialização</h4>
+                        <p>Pós-graduação em Direito Empresarial - FGV</p>
+                    </div>
+                </div>
+                <div class="timeline-item" data-year="2015">
+                    <div class="timeline-marker"></div>
+                    <div class="timeline-content">
+                        <h4>Ampliação da Atuação</h4>
+                        <p>Expansão das áreas de especialização e consolidação da prática advocatícia</p>
+                    </div>
+                </div>
+                <div class="timeline-item" data-year="2020">
+                    <div class="timeline-marker"></div>
+                    <div class="timeline-content">
+                        <h4>Escritório Próprio</h4>
+                        <p>Estabelecimento de escritório independente com foco em atendimento personalizado</p>
+                    </div>
+                </div>
+                <div class="timeline-item" data-year="2025">
+                    <div class="timeline-marker"></div>
+                    <div class="timeline-content">
+                        <h4>Modernização</h4>
+                        <p>Implementação de tecnologias modernas para melhor atendimento aos clientes</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Metodologia Section -->
+    <section class="testimonials-section">
+        <div class="container">
+            <div class="section-header">
+                <h2 class="section-title">Nossa Metodologia</h2>
+                <div class="title-divider"></div>
+                <p class="section-subtitle">Processo estruturado para oferecer o melhor atendimento jurídico</p>
+            </div>
+            
+            <div class="testimonials-carousel">
+                <div class="testimonial-card active">
+                    <div class="testimonial-content">
+                        <div class="method-icon">
+                            <i class="fas fa-search" style="font-size: 2.5rem; color: var(--dourado); margin-bottom: 1rem;"></i>
+                        </div>
+                        <h3 style="color: var(--preto); margin-bottom: 1rem;">1. Análise Detalhada</h3>
+                        <p style="font-style: normal;">Estudo minucioso do caso, levantamento de documentos e identificação das melhores estratégias jurídicas aplicáveis à situação.</p>
+                    </div>
+                </div>
+                
+                <div class="testimonial-card">
+                    <div class="testimonial-content">
+                        <div class="method-icon">
+                            <i class="fas fa-route" style="font-size: 2.5rem; color: var(--dourado); margin-bottom: 1rem;"></i>
+                        </div>
+                        <h3 style="color: var(--preto); margin-bottom: 1rem;">2. Planejamento Estratégico</h3>
+                        <p style="font-style: normal;">Elaboração de plano de ação personalizado, definição de prazos e apresentação clara dos caminhos jurídicos disponíveis.</p>
+                    </div>
+                </div>
+                
+                <div class="testimonial-card">
+                    <div class="testimonial-content">
+                        <div class="method-icon">
+                            <i class="fas fa-gavel" style="font-size: 2.5rem; color: var(--dourado); margin-bottom: 1rem;"></i>
+                        </div>
+                        <h3 style="color: var(--preto); margin-bottom: 1rem;">3. Execução Profissional</h3>
+                        <p style="font-style: normal;">Acompanhamento integral do processo, comunicação transparente e dedicação total à defesa dos interesses do cliente.</p>
+                    </div>
+                </div>
+            </div>
+            
+            <div class="carousel-controls">
+                <button class="carousel-btn prev-btn">
+                    <i class="fas fa-chevron-left"></i>
+                </button>
+                <div class="carousel-indicators">
+                    <span class="indicator active"></span>
+                    <span class="indicator"></span>
+                    <span class="indicator"></span>
+                </div>
+                <button class="carousel-btn next-btn">
+                    <i class="fas fa-chevron-right"></i>
+                </button>
+            </div>
+        </div>
+    </section>
+
+    <!-- Formulário de Contato Avançado -->
+    <section class="contact-form-section" id="consulta">
+        <div class="container">
+            <div class="section-header">
+                <h2 class="section-title">Solicite sua Consulta</h2>
+                <div class="title-divider"></div>
+                <p class="section-subtitle">Entre em contato e receba uma análise inicial do seu caso</p>
+            </div>
+            
+            <div class="contact-form-wrapper">
+                <form class="advanced-form" id="contact-form" data-netlify="true" name="contato">
+                    <input type="hidden" name="form-name" value="contato">
+                    <div class="form-row">
+                        <div class="form-group">
+                            <label for="name">Nome Completo *</label>
+                            <input type="text" id="name" name="name" placeholder="Digite seu nome completo" required>
+                            <span class="form-error"></span>
+                        </div>
+                        <div class="form-group">
+                            <label for="email">E-mail *</label>
+                            <input type="email" id="email" name="email" placeholder="seuemail@exemplo.com" required>
+                            <span class="form-error"></span>
+                        </div>
+                    </div>
+                    
+                    <div class="form-row">
+                        <div class="form-group">
+                            <label for="phone">Telefone *</label>
+                            <input type="tel" id="phone" name="phone" placeholder="(11) 99999-9999" required>
+                            <span class="form-error"></span>
+                        </div>
+                        <div class="form-group">
+                            <label for="area">Área Jurídica (opcional)</label>
+                            <select id="area" name="area">
+                                <option value="">Selecione uma área (opcional)</option>
+                                <option value="civil">Direito Civil</option>
+                                <option value="trabalhista">Direito Trabalhista</option>
+                                <option value="familia">Direito de Família</option>
+                                <option value="empresarial">Direito Empresarial</option>
+                                <option value="outro">Outra área</option>
+                            </select>
+                        </div>
+                    </div>
+                    
+                    <div class="form-group">
+                        <label for="message">Descreva seu caso *</label>
+                        <textarea id="message" name="message" rows="5" placeholder="Conte brevemente sobre sua situação jurídica. Não se preocupe com detalhes técnicos, apenas descreva o que aconteceu." required></textarea>
+                        <span class="form-error"></span>
+                    </div>
+                    
+                    <div class="form-group checkbox-group">
+                        <label class="checkbox-label">
+                            <input type="checkbox" id="terms" name="terms" required>
+                            <span class="checkmark"></span>
+                            Concordo com os <a href="#" class="terms-link">termos de uso</a> e política de privacidade *
+                        </label>
+                        <span class="form-error"></span>
+                    </div>
+                    
+                    <button type="submit" class="cta-button primary submit-btn">
+                        <i class="fas fa-paper-plane"></i>
+                        <span class="btn-text">Enviar Consulta</span>
+                        <div class="btn-loader">
+                            <i class="fas fa-spinner fa-spin"></i>
+                        </div>
+                    </button>
+                </form>
+                
+                <div class="contact-success" id="contact-success">
+                    <div class="success-icon">
+                        <i class="fas fa-check-circle"></i>
+                    </div>
+                    <h3>Mensagem Enviada!</h3>
+                    <p>Obrigado pelo contato. Retornaremos em até 24 horas.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- CTA Section -->
+    <section class="cta-section">
+        <div class="container">
+            <div class="cta-content">
+                <h2>Precisa de assessoria jurídica especializada?</h2>
+                <p>Entre em contato para uma consulta e saiba como podemos auxiliar na resolução da sua questão jurídica</p>
+                <button class="cta-button secondary" onclick="scrollToSection('contato')">
+                    <i class="fas fa-phone"></i>
+                    Solicitar Atendimento
+                </button>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer" id="contato">
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-info">
+                    <div class="footer-logo">
+                        <h3>Dr. Rafael Montenegro</h3>
+                        <p>Advocacia & Consultoria Jurídica</p>
+                    </div>
+                    
+                    <div class="contact-info">
+                        <h4>Informações de Contato</h4>
+                        <div class="contact-item">
+                            <i class="fas fa-phone"></i>
+                            <span>(11) 3456-7890</span>
+                        </div>
+                        <div class="contact-item">
+                            <i class="fas fa-envelope"></i>
+                            <span>contato@rafaelmontenegro.adv.br</span>
+                        </div>
+                        <div class="contact-item">
+                            <i class="fas fa-map-marker-alt"></i>
+                            <span>Av. Paulista, 1234 - São Paulo/SP</span>
+                        </div>
+                        <div class="contact-item oab-info">
+                            <i class="fas fa-id-card"></i>
+                            <span>OAB/SP 234.567</span>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="social-section">
+                    <h4>Redes Profissionais</h4>
+                    <div class="social-links">
+                        <a href="#" class="social-link" aria-label="LinkedIn Profissional">
+                            <i class="fab fa-linkedin"></i>
+                        </a>
+                        <a href="#" class="social-link" aria-label="Instagram Profissional">
+                            <i class="fab fa-instagram"></i>
+                        </a>
+                    </div>
+                </div>
+            </div>
+            
+            <div class="footer-bottom">
+                <p>&copy; 2025 Dr. Rafael Montenegro. Todos os direitos reservados.</p>
+                <p class="ethics-notice">Advocacia exercida em conformidade com o Código de Ética e Disciplina da OAB</p>
+            </div>
+        </div>
+    </footer>
+
+    <!-- Cursor Customizado -->
+    <div id="cursor-dot" class="cursor-dot"></div>
+    <div id="cursor-outline" class="cursor-outline"></div>
+    
+    <!-- Sistema de Partículas -->
+    <canvas id="particles-canvas" class="particles-canvas"></canvas>
+    
+    <!-- Controle de Tema -->
+    <div class="theme-switcher">
+        <button id="theme-toggle" class="theme-toggle" aria-label="Alternar tema">
+            <i class="fas fa-sun"></i>
+            <i class="fas fa-moon"></i>
+        </button>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
